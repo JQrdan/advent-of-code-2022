@@ -1,10 +1,6 @@
-const fs = require("fs");
-const path = require("path");
+const { getInputString } = require('../utils/getInputString.js');
 
-// parse the input
-const message = fs
-  .readFileSync(path.resolve(__dirname, "input.txt"))
-  .toString();
+const message = getInputString(6, false);
 
 const WINDOW_SIZE = 4 // or 14 for part 2
 

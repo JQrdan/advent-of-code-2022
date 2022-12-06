@@ -1,8 +1,6 @@
-const fs = require('fs');
-const path = require('path');
+const { getInputString } = require('../utils/getInputString.js');
 
-// parse the input
-const file = fs.readFileSync(path.resolve(__dirname, 'input.txt')).toString();
+const file = getInputString(3, false);
 
 const sum = arr => arr.reduce((acc, cur) => {
   acc += cur;
