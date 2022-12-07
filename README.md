@@ -6,3 +6,4 @@
 - [Day 4 Puzzle](https://adventofcode.com/2022/day/4) - [Part 1 Solution](./src/day4/part1.js) - [Part 2 Solution](./src/day4/part2.js)
 - [Day 5 Puzzle](https://adventofcode.com/2022/day/5) - [Part 1 Solution](./src/day5/part1.js) - [Part 2 Solution](./src/day5/part2.js)
 - [Day 6 Puzzle](https://adventofcode.com/2022/day/6) - [Part 1 + 2 Solution](./src/day6/part1+2.js)
+- [Day 7 Puzzle](https://adventofcode.com/2022/day/7) - [Part 1 Solution](./src/day7/part1.js) - [Part 2 Solution](./src/day7/part2.js)
