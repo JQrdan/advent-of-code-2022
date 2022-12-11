@@ -8,3 +8,5 @@
 - [Day 6 Puzzle](https://adventofcode.com/2022/day/6) - [Part 1 + 2 Solution](./src/day6/part1+2.js)
 - [Day 7 Puzzle](https://adventofcode.com/2022/day/7) - [Part 1 Solution](./src/day7/part1.js) - [Part 2 Solution](./src/day7/part2.js)
 - [Day 8 Puzzle](https://adventofcode.com/2022/day/8) - [Part 1 Solution](./src/day8/part1.js) - [Part 2 Solution](./src/day8/part2.js)
+- [Day 9 Puzzle](https://adventofcode.com/2022/day/9)
+- [Day 10 Puzzle](https://adventofcode.com/2022/day/10) - [Part 1 Solution](./src/day10/part1.js) - [Part 2 Solution](./src/day10/part2.js)
