@@ -13,3 +13,4 @@
 - [Day 11 Puzzle](https://adventofcode.com/2022/day/11) - [Part 1 Solution](./src/day11/part1.js) - [Part 2 Solution](./src/day11/part2.js)
 - [Day 12 Puzzle](https://adventofcode.com/2022/day/12) - [Part 1 Solution](./src/day12/part1.js) - [Part 2 Solution](./src/day12/part2.js)
 - [Day 13 Puzzle](https://adventofcode.com/2022/day/13) - [Part 1 Solution](./src/day13/part1.js) - [Part 2 Solution](./src/day13/part2.js)
+- [Day 14 Puzzle](https://adventofcode.com/2022/day/14) - [Part 1 Solution](./src/day14/part1.js) - [Part 2 Solution](./src/day14/part2.js)
