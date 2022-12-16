@@ -1,3 +1,4 @@
+const { appendFileSync, rmSync } = require("fs");
 const { getInputString } = require("../utils/getInputString.js");
 
 const BLOCKING_CHARS = ["#", "O"]
@@ -84,9 +85,26 @@ const createMap = (sandStart, clusters) => {
   return map;
 }
 
-const draw = (screen) => {
-  for(const row of screen) {
-    console.log(row.join(''));
+const COLOURS = {
+  '.': "0 0 0\n",
+  '#': "125 125 125\n",
+  'O': "255 255 0\n",
+  '+': "255 255 0\n"
+}
+
+const draw = (map, i) => {
+  const fileName = `animation/sand_${i}.ppm`
+
+  try {
+    rmSync(fileName);
+  } catch(e){}
+  
+  appendFileSync(fileName, `P3\n${map[0].length} ${map.length - 1}\n255\n`);
+  for(const row of map) {
+    for(const char of row) {
+      appendFileSync(fileName, COLOURS[char]);
+    }
+    appendFileSync(fileName, '\n');
   }
 }
 
@@ -124,6 +142,7 @@ const Run = () => {
 
   let i = 0;
   while(i >= 0) {
+    draw(map, i)
     i++
     try {
       const endPosition = getEndSandPosition(sandStart, map);
@@ -133,8 +152,6 @@ const Run = () => {
       break;
     }
   }
-
-  draw(map)
 }
 
 Run();
